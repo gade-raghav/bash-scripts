@@ -1,5 +1,6 @@
 #! /bin/sh
 
+#Script to create a backup of your working dir using tar an pushing it to your server
 
 #create tar archive
 tar -zcvf "$(date -I).tar.gz" ~/demofile.txt
