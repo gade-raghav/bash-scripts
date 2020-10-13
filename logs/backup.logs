@@ -1,0 +1,8 @@
+Oct 13 19:01:19 noobox sendemail[9777]: Email was sent successfully!
+Oct 19:03:37 noobox               backup created -> upload successful
+Oct 19:05:40 noobox exit-code:1  backup created -> upload not-successful: error while executing scp command
+Oct 13 19:05:45 noobox sendemail[9971]: Email was sent successfully!
+Oct 13 19:08:56 noobox               backup created -> upload successful
+Oct 13 19:18:10 noobox exit-code:0  backup created -> upload not-successful: error while executing scp command
+Oct 13 19:18:15 noobox sendemail[10610]: Email was sent successfully!
+Oct 13 19:19:03 noobox               backup created -> upload successful
