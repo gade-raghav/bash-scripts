@@ -49,7 +49,6 @@ else
 fi
 
 #for *.exe files.
-cd ~/Downloads
 mv *.exe EXEs/ 2> /dev/null
 exe=$?
 if [ $exe -eq 0 ]
@@ -57,6 +56,16 @@ then
         echo "$(date +%b) $(date +%d) $(date +%T) exit status of *.exe      $exe" >> ~/work/scripts/logs/sort.logs
 else
         echo "$(date +%b) $(date +%d) $(date +%T) exit status of *.exe      $exe" >> ~/work/scripts/logs/sort.logs
+fi
+
+#for *.tar.xz files.
+mv *.tar.xz TARs/ 2> /dev/null
+tar=$?
+if [ $tar -eq 0 ]
+then
+        echo "$(date +%b) $(date +%d) $(date +%T) exit status of *.tar      $tar" >> ~/work/scripts/logs/sort.logs
+else
+        echo "$(date +%b) $(date +%d) $(date +%T) exit status of *.tar      $tar" >> ~/work/scripts/logs/sort.logs
 fi
 
 echo "\n" >> ~/work/scripts/logs/sort.logs
