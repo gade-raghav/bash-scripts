@@ -59,7 +59,7 @@ else
 fi
 
 #for *.tar.xz files.
-mv *.tar.xz TARs/ 2> /dev/null
+mv *.tar.* TARs/ 2> /dev/null
 tar=$?
 if [ $tar -eq 0 ]
 then
