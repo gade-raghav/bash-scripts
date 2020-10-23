@@ -29,7 +29,7 @@ fi
 
 
 #for media files.
-mv *.jpg *.png *.mp4 *.mp3 PICTURES/ 2> /dev/null
+mv *.jpg *.png *.mp4 *.mp3 Pictures/ 2> /dev/null
 jpg=$?
 if [ $jpg -eq 0 ]
 then
