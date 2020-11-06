@@ -34,8 +34,8 @@ Operating System : Ubuntu 18.04 LTE
 
 ### Steps
 
-#### Kubernetes Setup:
-Initially we need to setup Kubernetes : ([Setting up Kubernetes using Microk8s on Ubuntu](https://microk8s.io/docs))
+#### Kubernetes Setup using [microk8s](https://microk8s.io/docs):
+Initially we need to setup Kubernetes :
 
 Use the following commands:
 
